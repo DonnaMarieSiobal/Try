@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;    
+}
+
+.Home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("images/h.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 25px 15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:rgb(1, 5, 0);
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.Home nav ul li:hover{
+    text-decoration: underline;
+    opacity:70%;
+}
+
+.intro{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.intro h1{
+    font-size: 30px;
+    color:rgb(32, 151, 219);
+    margin-bottom: 30px;
+    
+}
+.intro h2{
+    font-size: 60px;
+    color: rgb(243, 36, 164);
+    margin-bottom: 30px;
+    animation-duration: 2s;
+    animation-name: bounce;
+}
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+        40% {transform: translateY(-30px);} 
+        60% {transform: translateY(-15px);} 
+
+}
+.intro p{
+    font-size: 25px;
+    color:rgb(243, 36, 164);
+    line-height: 22px;
+    animation-duration: 2s;
+    animation-name: bounce;
+}
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+        40% {transform: translateY(-30px);} 
+        60% {transform: translateY(-15px);} 
+}
+
+.images {
+    width: 30%;
+    height: 10;
+    position: absolute;
+    bottom:0;
+    right: 100px;
+}
+.About{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("images/aboutbg.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.About ul li:hover{
+    text-decoration: underline;
+    opacity:70%;
+}
+.About-me h1{
+    margin-top:0%;
+    margin-left: 38%;
+    font-size: 50px;
+    color:rgb(175, 37, 117);    
+}
+.WhoIam{
+    margin-left:38%;
+    margin-right: 2%;
+}
+.WhoIam p{
+    font-size:large;
+    line-height:25px;
+
+}
+.image {
+    width: 30%;
+    height: 10;
+    position: absolute;
+    bottom:0;
+    left:10px;
+}
+.Education{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background: url("images/bged.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.Education ul li:hover{
+    text-decoration: underline;
+    opacity:70%;
+}
+.Tertiary{
+    margin-top: 1%;
+    margin-left:5%;
+    font-size:20px;
+    line-height: 20px;
+
+}
+.Tertiary{
+    margin-top: 1%;
+    margin-left:6%;
+    font-size:20px;
+    line-height: 30px;
+
+}
+.SHS{
+    margin-left: 6%;
+    font-size:20px;
+    line-height: 30px;
+}
+.JHS{
+    margin-left: 6%;
+    font-size:20px;
+    line-height: 30px;
+}
+.Primary{
+    margin-left: 6%;
+    font-size:20px;
+    line-height: 30px;
+}
+.facts{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("images/bgfacts.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+}    
+.facts ul li:hover{
+    text-decoration: underline;
+    opacity:70%;
+}
+.tenfacts h1{
+    margin-top: 2%;
+    margin-left: 30%;
+    color:rgb(16, 126, 199);
+    animation-duration: 2s;
+    animation-name: bounce;
+}
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+        40% {transform: translateY(-30px);} 
+        60% {transform: translateY(-15px);} 
+}
+.tenfacts p{
+    margin-top: 1%;
+    margin-left:40%;
+    font-size:18px;
+    line-height: 35px;
+    font-weight: bold;
+
+}
+.imagesfacts {
+    width: 36%;
+    height: 530px;
+    position: fixed;
+    bottom:0;
+    left:10px;
+}
+.Contacts{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("images/2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.Contacts ul li:hover{
+    text-decoration: underline;
+    opacity:70%;
+}
+.text h1{
+    margin-top: 5%;
+    color:rgb(189, 65, 112);
+    
+}
+.text h3{
+    color:rgb(19, 19, 19);
+    margin-top: 1%;
+    
+}
+.text h2{
+    line-height:90px;
+    margin-left:37%;
+    margin-top: 6%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 0%;
+    }
+  
+    to {
+      margin-left: 37%;
+    }
+}
+.picture {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    left:330px;
+    top:290px;   
+}
+
